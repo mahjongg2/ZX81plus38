@@ -15,4 +15,6 @@ Warning: The revision 1.4 version of my ZX-81+38 contains some errors, and will 
 
 ZX81+38rev1,5.zip contains all gerber and drill files for the working updated and layout checked files to produce a revision 1,5 version PCB.
 
+The file ZX81+38rev1,5.pdf is the schematic of the corrected revision 1.5 (in black and white)
+
 And I will upload kiCad files after I know revision 1.5 is working well.

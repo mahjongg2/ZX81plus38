@@ -11,5 +11,8 @@ The cassette loading input logic has been eenhanced to give perfect cassette loa
 The ULA replacement logic is perfect enough to enable the use of games which use various enhanced highres graphics techniques to work flawlessly.
 In fact the ZX81+38 clone is easy to build, and a joy to use.
 
-Warning: The revision 1.4 version of my ZX-81+38 contains some errors, and will NOT work as is. The main reason being that the WAIT generator flip/flop idea doesn't work, and must be replaced with a working wait circuit. I have at the moment I wrote this already designed a revision 1.5 version where all known errors are repaired. I will upload new schematics, production files (gerbers etc) aand BOM soon.
-And will upload kiCad files after I know revision 1.5 is working well.
+Warning: The revision 1.4 version of my ZX-81+38 contains some errors, and will NOT work as is. The main reason being that the WAIT generator flip/flop idea doesn't work, and must be replaced with a working wait circuit. I have at the moment I wrote this already designed a revision 1.5 version where all known errors are repaired. I will upload new schematic and BOM soon.
+
+ZX81+38rev1,5.zip contains all gerber and drill files for the working updated and layout checked files to produce a revision 1,5 version PCB.
+
+And I will upload kiCad files after I know revision 1.5 is working well.

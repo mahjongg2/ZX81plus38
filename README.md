@@ -1,6 +1,6 @@
 # ZX81plus38
 Mij latest ZX81 clone without ULA built from discrete pin through hole components
-It features a PCB with the exact same size as a normal ZX81, and features drill holes and connectors at the same locations (with the 3.5mm power jack replaced
+It features a PCB with the exact same size as a normal ZX81, (142 x 100mm) and features drill holes and connectors at the same locations (with the 3.5mm power jack replaced
 with a modern Type B power jack, so you can power this ZX81 clone with a simple USB power supply, and with the RF output modulator replaced with a composite video
 output connector, that produces a video signal that modern composire monitors should be able to accept (yes with a real front porch signal).
 There is no ULA needed for this clone, as all the ULA logic is replicated with modern DIP compatible logic IC's. The software (ZX-81 BASIC) fits into a cheap OTP

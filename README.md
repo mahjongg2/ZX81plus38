@@ -18,7 +18,7 @@ ZX81+38rev1,5.zip contains all gerber and drill files for the working updated an
 The file ZX81+38rev1,5.pdf is the schematic of the corrected revision 1.5 (in black and white)
 
 We found one more error, that I have fixed in revision 1,6:
-the keyboard matrix is connected to eigh Address lines, A8 to A15, but the error is that for A8 a version is used that comes from the signal line passing through a 10K resistor (R1) so it is signal A8' , that is not correct, the keyboard needs unattenuated signals, so A8, not A8'. otherwise the resulting dataline does not go low enough to reliably register as "low". (actualy this was not essential, as long as the RP1 pullups are not too strong, so I changed them to 10K instad of 4K7. 
+the keyboard matrix is connected to eight Address lines, A8 to A15, but the error is that for A8 a version is used that comes from the signal line passing through a 10K resistor (R1) so it is signal A8' , that is not correct, the keyboard needs unattenuated signals, so A8, not A8'. otherwise the resulting dataline does not go low enough to reliably register as "low". (actualy this was not essential, as long as the RP1 pullups are not too strong, so I changed them to 10K instad of 4K7. 
 
 
 And I will upload kiCad files after I know revision 1.6 is working well.

@@ -22,3 +22,5 @@ the keyboard matrix is connected to eight Address lines, A8 to A15, but the erro
 
 
 And I will upload kiCad files after I know revision 1.6 is working well.
+
+I noticed that somehow I hadn't uploaded a correct BOM, so I added the Bill of material file in the form of and .ODS (open officie spreadsheet) file

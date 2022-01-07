@@ -20,8 +20,11 @@ The file ZX81+38rev1,5.pdf is the schematic of the corrected revision 1.5 (in bl
 We found one more error, that I have fixed in revision 1,6:
 the keyboard matrix is connected to eight Address lines, A8 to A15, but the error is that for A8 a version is used that comes from the signal line passing through a 10K resistor (R1) so it is signal A8' , that is not correct, the keyboard needs unattenuated signals, so A8, not A8'. otherwise the resulting dataline does not go low enough to reliably register as "low". (actualy this was not essential, as long as the RP1 pullups are not too strong, so I changed them to 10K instad of 4K7. 
 
+Because of covid (closing my Makerspace) I have not been able to build my own copy of the ZX81plus38, but I'm several people have built it and reported that revision 1.6 is working well. You can read much more about the development of my designs in my makerspace at www.revspace.nl look up my projects in the projects gallery. For example this project can be found here: https://revspace.nl/ZX81plus38_simple_to_build_ZX-81_clone for writing back you can mail me at mahjongg at xs4all.nl replace the at for the comercial at sign @, or you can use the forum of the raspberry PI organisation where I wrote about this clone in the "offtopic" section.
 
-And I will upload kiCad files after I know revision 1.6 is working well.
+R21 (the series resistor for a keyboard LED ) should be 330 Ohm (if you add a keyboard LED) That is if you built the keyboard I designed for the ZX81plus35 that also works with this ZX81plus38, in the schamatic a value of 100Ohm is used, which is also okay, although much brighter.
+
+And I will upload kiCad files after I know revision 1.6 is working well, which can happen only if revspace reopens, and I have built and tested my own copy, and I have recovered enough from my current bad condition of what I think of as my "long-covid, only I don't remeber having a case of covid, but I do suffer from the symptoms. I'm 65 now (2021/2022) so I don't see myself getting a job.
 
 I noticed that somehow I hadn't uploaded a correct BOM, so I added the Bill of material file in the form of and .ODS (open officie spreadsheet) file
 The BOM contains exact component designators for all components used from either farnell or mouser, so you will know EXACTLY which components to buy.

@@ -22,9 +22,11 @@ the keyboard matrix is connected to eight Address lines, A8 to A15, but the erro
 
 Because of covid (closing my Makerspace) I have not been able to build my own copy of the ZX81plus38, but I'm several people have built it and reported that revision 1.6 is working well. You can read much more about the development of my designs in my makerspace at www.revspace.nl look up my projects in the projects gallery. For example this project can be found here: https://revspace.nl/ZX81plus38_simple_to_build_ZX-81_clone for writing back you can mail me at mahjongg at xs4all.nl replace the at for the comercial at sign @, or you can use the forum of the raspberry PI organisation where I wrote about this clone in the "offtopic" section.
 
-R21 (the series resistor for a keyboard LED ) should be 330 Ohm (if you add a keyboard LED) That is if you built the keyboard I designed for the ZX81plus35 that also works with this ZX81plus38, in the schamatic a value of 100Ohm is used, which is also okay, although much brighter.
-
 And I will upload kiCad files after I know revision 1.6 is working well, which can happen only if revspace reopens, and I have built and tested my own copy, and I have recovered enough from my current bad condition of what I think of as my "long-covid", only I don't remeber ever having a case of covid, but I do suffer from the symptoms. I'm 65 now (2021/2022) so I don't see myself getting a job anymore, and consider myself retired.
 
 I noticed that somehow I hadn't uploaded a correct BOM, so I added the Bill of material file in the form of and .ODS (open officie spreadsheet) file
 The BOM contains exact component designators for all components used from either farnell or mouser, so you will know EXACTLY which components to buy.
+
+Note that R21 (the series resistor for a keyboard LED )is NOT in this BOM, as I added it after I created the BOM, but should be 330 Ohm (if you add a keyboard LED) That is if you built the keyboard I designed for the ZX81plus35 that also works with this ZX81plus38, in the schamatic a value of 100Ohm is used, which is also okay, although much brighter.
+
+

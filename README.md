@@ -24,7 +24,7 @@ Because of covid (closing my Makerspace) I have not been able to build my own co
 
 R21 (the series resistor for a keyboard LED ) should be 330 Ohm (if you add a keyboard LED) That is if you built the keyboard I designed for the ZX81plus35 that also works with this ZX81plus38, in the schamatic a value of 100Ohm is used, which is also okay, although much brighter.
 
-And I will upload kiCad files after I know revision 1.6 is working well, which can happen only if revspace reopens, and I have built and tested my own copy, and I have recovered enough from my current bad condition of what I think of as my "long-covid, only I don't remeber having a case of covid, but I do suffer from the symptoms. I'm 65 now (2021/2022) so I don't see myself getting a job.
+And I will upload kiCad files after I know revision 1.6 is working well, which can happen only if revspace reopens, and I have built and tested my own copy, and I have recovered enough from my current bad condition of what I think of as my "long-covid", only I don't remeber ever having a case of covid, but I do suffer from the symptoms. I'm 65 now (2021/2022) so I don't see myself getting a job anymore, and consider myself retired.
 
 I noticed that somehow I hadn't uploaded a correct BOM, so I added the Bill of material file in the form of and .ODS (open officie spreadsheet) file
 The BOM contains exact component designators for all components used from either farnell or mouser, so you will know EXACTLY which components to buy.

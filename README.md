@@ -29,4 +29,4 @@ The BOM contains exact component designators for all components used from either
 
 Note that R21 (the series resistor for a keyboard LED )is NOT in this BOM, as I added it after I created the BOM, but should be 330 Ohm (if you add a keyboard LED) That is if you built the keyboard I designed for the ZX81plus35 that also works with this ZX81plus38, in the schamatic a value of 100Ohm is used, which is also okay, although much brighter.
 
-
+on june 15, 2022 I uploaded a BOM for revision 1.6 of the ZX81+38 creating some corrections R20 should be 680R, R21 should be 330 R R29 should be 1M RP22 can be 10Kx8 but 22Kx8 works better with some keyboards, C7 should be 47nF, most importantly U21 should be a 74HC04 or 74HCU04 NOT A 74HC14!

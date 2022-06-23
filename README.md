@@ -39,5 +39,5 @@ I made the crystal footpad now compatible for a SMD crystal too, and printed sev
 
 I also updated a component placement drawing for revision 1,7 and uploaded it here.
 
-Lastly for completeness, I also uploaded the hex dump of the real ZX-81 which you are legally allowed to burn into a ROM and use with the ZX81+38. 
+Lastly for completeness, I also uploaded the ROM dump of the real ZX-81, which you are legally allowed to burn into a ROM and use with the ZX81+38. 
 

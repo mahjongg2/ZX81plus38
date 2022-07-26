@@ -47,3 +47,5 @@ On 5 juli 2022 I discovered that KiCad had changed back to the logic family of s
 
 26 July 2022, updated the BOM for ZX81+38 revision 1.8 added reichelt order codes (I have orderer the missing HC logic chips from here, as farnell is no loger an option for me)
 Added a new component placement drawing that corrects the wrongly mixed logic family's and adds some extra info, use this drawing for revision 1.8
+Addded rev 1.8 Schematic (.PDF in black and white) for other (.PNG older or color schematics) see my Revspace pages
+Uploaded PCB production files gerber and drill files, (I checked them with a gerber viewer, they should be okay)

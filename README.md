@@ -51,6 +51,7 @@ FINAL VERSION REVISION 1.8
 on 26 July 2022, I updated the BOM (Bill of materials) for ZX81+38 revision 1.8, adding more reichelt order codes (I have ordered my own missing HC logic chips from there, as farnell is no longer an option for me). They even had all the correct connectors!
 Added a new component placement drawing that corrects the wrongly mixed logic family's and adds some extra info, use this drawing for revision 1.8
 Addded rev 1.8 Schematic (.PDF in black and white) for other (.PNG older or color schematics) see my Revspace pages at www.revspace.nl/projects.
-Uploaded PCB production files gerber and drill files, (I checked them with a gerber viewer, they should be okay)
+
+Uploaded PCB production files gerber and drill files, (I checked them with a gerber viewer, they should be okay) this version has all the latest improvements, inclusing clock inversion and the copper fill isolation around JP1.
 
 To avoid confusion when downloading unsuitable older files I have removed all older (pre rev1.8) files, older schematics etc can be found on my revspace pages. if you need older gerber files contact me at mahjongg@xs4all.nl or visit the offtopic section of the raspberry PI foundation where I have pages about my projects (I'm a moderator there). 

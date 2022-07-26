@@ -49,3 +49,5 @@ On 5 juli 2022 I discovered that KiCad had changed back to the logic family of s
 Added a new component placement drawing that corrects the wrongly mixed logic family's and adds some extra info, use this drawing for revision 1.8
 Addded rev 1.8 Schematic (.PDF in black and white) for other (.PNG older or color schematics) see my Revspace pages at www.revspace.nl/projects.
 Uploaded PCB production files gerber and drill files, (I checked them with a gerber viewer, they should be okay)
+
+To avoid downloading unsuitable older files I have removed older (pre rev1.8) files, older schematics etc can be found on my revspace pages.

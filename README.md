@@ -60,3 +60,5 @@ On august four 2022, after many request I decided to zip up my KiCad project dir
 but many people have reported that they got my ZX-81 clone working, so I decided to keep my promise to completely open source my ZX-81 clone.
 Please if you do, don't remove my name from the PCB, and schematics!
 If you have any questions or remarks, you can reach me at mahjongg@xs4all.nl
+
+by the way, if you need a manual for your ZX81+38 you can find it here: http://www.retro8bitcomputers.co.uk/Content/downloads/manuals/zx81-basic-manual.pdf

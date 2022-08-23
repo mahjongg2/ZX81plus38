@@ -43,7 +43,7 @@ Lastly for completeness, I also uploaded the ROM dump of the real ZX-81, which y
 On 5 juli 2022 I discovered that KiCad had changed back to the logic family of some libraries for wich I had changed the original logic family from LS logic to HC logic. I intended that all logic would be HC logic, just like in my ZX84+35 initial clone. But this bug in KiCad may cause problems because HC logic and LS logic are incompatible. So the first thing I did was updating the BOM, also to see if there actually were HC replacements for the LS logic I had used by mistake. Luckily all the HC logic I needed was available in DIP. Next up will be revision 1.8 of the schematic, which will also get a clock inverter using a spare half of a flipflop. This might be necessary to solve a timing error that can occur with EPROM's that are too slow to put pixel data into the shift register, which results in all black character squares (due to the databus pullups that pull the databus high when nothing is driving it). Then I will correct the component placement diagram which also shows some wrong logic families. My last remark is that although theoretically the ZX81+38 should not work with mixed logic, it seems that in practice it still seems to work as I have reports that it does! I finished building up my own copy with mixed logic so soon I can check this for myself. Also note that I no longer recommend using sockets with machined pins, use dual wipe sockets instead. This is reflected in the BOM. Lastly perhaps this clone will not work with original N-MOS Z80 chips, its recommended to use modern (C-MOS) versions, such as the Z84C0008PEG.
 
 
-FINAL VERSION REVISION 1.8
+FINAL VERSION REVISION 1.9
 
 on 26 July 2022, I updated the BOM (Bill of materials) for ZX81+38 revision 1.8, adding more reichelt order codes (I have ordered my own missing HC logic chips from there, as farnell is no longer an option for me). They even had all the correct connectors!
 Added a new component placement drawing that corrects the wrongly mixed logic family's and adds some extra info, use this drawing for revision 1.8
@@ -62,3 +62,12 @@ by the way, if you need a manual for your ZX81+38 you can find it here: http://w
 
 Also, if you are using a real ZX-81 keyboard foil then you need the connectors, (as you cannot solder pins to the foil) the actual connectors you need are Molex parts 22-02-3053 and 22-02-3083.
 Note when soldering that you solder them in with the correct orientation, as the two foil ends are metalized on diferent sides, and so the 5-pin 22-02-3053 should be mounted 180 degrees rotated compared to the orientation of the 8-pins 22-02-3083. If the orientation is wrong the connectors will not make contact with the metalized side of the foil. You can find these connectors from different distributors, or from https://www.sellmyretro.com/offer/details/set-of-molex-keyboard-membrane-connectors-for-sinclair-zx81-10859 
+
+ONE MORE SMALL REVISION WAS NEEDED REVISION 1.9
+
+When testing the joystick interface we found out that it wasn't working, R23 should be 1 K not 10K, and I forgot to add five pulldown to GND resistors on the bases of the five 2N3904 transistor, the latter means a large layout change, I opted for a 6-pin resistor (star) network with 5 10K resistors, and I placed it between the SRAM chip and the 5 2N3904 Transistors, note that pin 1 (the common pin) is located on top). I remade all the files anew for revision 1.9 and replaced the existing files with revision 1.9 files here. The .ZIP file with the KiCad files now only contains the three necessary files: that is:
+ZX81plus38.kicad_pcb
+ZX81plus38.kicad_pro
+and
+ZX81plus38.kicad_sch
+hopefully that was the last update

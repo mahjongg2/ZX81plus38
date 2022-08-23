@@ -53,7 +53,7 @@ Uploaded PCB production files gerber and drill files, (I checked them with a ger
 
 To avoid confusion when downloading unsuitable older files I have removed all older (pre rev1.8) files, older schematics etc can be found on my revspace pages. if you need older gerber files contact me at mahjongg@xs4all.nl or visit the offtopic section of the raspberry PI foundation where I have pages about my projects (I'm a moderator there). 
 
-On august four 2022, after many request I decided to zip up my KiCad project directory for the ZX81+38, and upload it to GitHub, so you can duplicate my effort, and create your own version of the ZX81+38. Note that at this moment I still have not got my own version working, I'm still missing a 74HC74 IC,
+On august 4, 2022, after many request I decided to zip up my KiCad project directory for the ZX81+38, and upload it to GitHub, so you can duplicate my effort, and create your own version of the ZX81+38. Note that at this moment I still have not got my own version working, I'm still missing a 74HC74 IC,
 but many people have reported that they got my ZX-81 clone working, so I decided to keep my promise to completely open source my ZX-81 clone.
 Please if you do, don't remove my name from the PCB, and schematics!
 If you have any questions or remarks, you can reach me at mahjongg@xs4all.nl

@@ -73,6 +73,7 @@ ZX81plus38.kicad_sch
 hopefully that was the last update
 
 
-KEYBOARD PCB for a keyboard with real buttons.
+KEYBOARD PCB
+For a keyboard with real buttons.
 on September 8, 2022. I finished my keyboard PCB, revision 1.1. I uploaded the schematic, the PCB production files, a Bill of material specifically for the keyboard, and a keyboard overlay (.PDF) which you can print out, laminate with transparent plastic, punch holes for the 40 keyboard plungers.
 and a Bill of material for the keyboard with 40 keys a power LED, and solder pads for three flatcables, that are prepared so that they have wire ends with 2.54 pitch (every other wire with an 1.27mm pitch is not used) three flexcables are used with 5-wires 3-wires (for the LED) and 8-wires).

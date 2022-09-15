@@ -72,10 +72,12 @@ and
 ZX81plus38.kicad_sch
 hopefully that was the last update
 
+No it wasn't, as it turned out that CO2 and CO3 had a misleading schematic symbol, that caused me to use the wrong pin, as it was the signals were connected to the RING of the jackplug, not the TIP,(Of the Tip/Ring/Sleeve or TRS connecvtions) so I corrected that so now audio comes out, and goes into, onto the TIP connection (as is normal for mono audio), also I corrected values for C7, C8, and R59, and these corrections are in the new schematic, the BOM and the component overview drawing, all corrected files were replaced (except for the KiCad files). All still count as revision 1.9.
+
 
 KEYBOARD PCB
 
 For a keyboard with real buttons.
 on September 8, 2022. I finished my keyboard PCB, revision 1.1. I uploaded the schematic, the PCB production files, a Bill of material specifically for the keyboard, and a keyboard overlay (.PDF) which you can print out, laminate with transparent plastic, punch holes for the 40 keyboard plungers, and glued on top of the buttons.
 and a Bill of material for the keyboard with 40 keys a power LED, and solder pads for three flatcables, that are prepared so that they have wire ends with 2.54 pitch (every other wire with an 1.27mm pitch is not used) three flexcables are used with 5-wires 3-wires (for the LED) and 8-wires).
-revision 1.2 was made because there were some errors in the lettering below the keys, now the text "T Y U I O P" is corrected and the "10" was changed to "0", also the lettering was made a bit bolder. This change only pertains to the silk screen, nothing else has changed. so you can use the revision 1.1 BOM and KiCad files (you will need to edit the lettering though). If you already made a revision 1.1 PCB, no worries, the lettering is not needed when you use the keyboard overlay, and nothe else has changed.
+revision 1.2 was made because there were some errors in the lettering below the keys, now the text "T Y U I O P" is corrected and the "10" was changed to "0", also the lettering was made a bit bolder. This change only pertains to the silk screen, nothing else has changed. so you can use the revision 1.1 BOM and KiCad files (you will need to edit the lettering though). If you already made a revision 1.1 PCB, no worries, the lettering is not needed when you use the keyboard overlay, and nothing else has changed. The copper text on the keyboard still reads 1.1. as copper was unchanged, only the silk screen was modified.

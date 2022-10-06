@@ -70,9 +70,10 @@ ZX81plus38.kicad_pcb
 ZX81plus38.kicad_pro
 and
 ZX81plus38.kicad_sch
-hopefully that was the last update
 
-No it wasn't, as it turned out that CO2 and CO3 had a misleading schematic symbol, that caused me to use the wrong pin, as it was the signals were connected to the RING of the jackplug, not the TIP,(Of the Tip/Ring/Sleeve or TRS connecvtions) so I corrected that so now audio comes out, and goes into, onto the TIP connection (as is normal for mono audio), also I corrected values for C7, C8, and R59, and these corrections are in the new schematic, the BOM and the component overview drawing, all corrected files were replaced even the KiCad files.
+As it turned out that CO2 and CO3 had a misleading schematic symbol, that caused me to use the wrong pin, as it was the signals were connected to the RING of the jackplug, not the TIP,(Of the Tip/Ring/Sleeve or TRS connecvtions) so I corrected that so now audio comes out, and goes into, onto the TIP connection (as is normal for mono audio), also I corrected values for C7, C8, and R59, and these corrections are in the new schematic, the BOM and the component overview drawing, all corrected files were replaced even the KiCad files.
+
+On October 6, 2022 I uploaded a new BOM, some small errors were repaired, the 74HC11 from mouser was listed as a 74LS11, and the SRAM from mouser was a "skinny dip" version instead of a regular 600mil DIP.  
 
 
 KEYBOARD PCB

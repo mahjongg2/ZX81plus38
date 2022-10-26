@@ -43,7 +43,7 @@ Lastly for completeness, I also uploaded the ROM dump of the real ZX-81, which y
 On 5 juli 2022 I discovered that KiCad had changed back to the logic family of some libraries for wich I had changed the original logic family from LS logic to HC logic. I intended that all logic would be HC logic, just like in my ZX84+35 initial clone. But this bug in KiCad may cause problems because HC logic and LS logic are incompatible. So the first thing I did was updating the BOM, also to see if there actually were HC replacements for the LS logic I had used by mistake. Luckily all the HC logic I needed was available in DIP. Next up will be revision 1.8 of the schematic, which will also get a clock inverter using a spare half of a flipflop. This might be necessary to solve a timing error that can occur with EPROM's that are too slow to put pixel data into the shift register, which results in all black character squares (due to the databus pullups that pull the databus high when nothing is driving it). Then I will correct the component placement diagram which also shows some wrong logic families. My last remark is that although theoretically the ZX81+38 should not work with mixed logic, it seems that in practice it still seems to work as I have reports that it does! I finished building up my own copy with mixed logic so soon I can check this for myself. Also note that I no longer recommend using sockets with machined pins, use dual wipe sockets instead. This is reflected in the BOM. Lastly perhaps this clone will not work with original N-MOS Z80 chips, its recommended to use modern (C-MOS) versions, such as the Z84C0008PEG.
 
 
-PREVIOUS VERSION REVISION 1.8
+# PREVIOUS VERSION REVISION 1.8
 
 on 26 July 2022, I updated the BOM (Bill of materials) for ZX81+38 revision 1.8, adding more reichelt order codes (I have ordered my own missing HC logic chips from there, as farnell is no longer an option for me). They even had all the correct connectors!
 Added a new component placement drawing that corrects the wrongly mixed logic family's and adds some extra info, use this drawing for revision 1.8
@@ -76,9 +76,14 @@ As it turned out that CO2 and CO3 had a misleading schematic symbol, that caused
 On October 6, 2022 I uploaded a new BOM, some small errors were repaired, the 74HC11 from mouser was listed as a 74LS11, and the SRAM from mouser was a "skinny dip" version instead of a regular 600mil DIP.  
 
 
-KEYBOARD PCB
+# KEYBOARD PCB
 
 For a keyboard with real buttons.
 on September 8, 2022. I finished my keyboard PCB, revision 1.1. I uploaded the schematic, the PCB production files, a Bill of material specifically for the keyboard, and a keyboard overlay (.PDF) which you can print out, laminate with transparent plastic, punch holes for the 40 keyboard plungers, and glued on top of the buttons.
 and a Bill of material for the keyboard with 40 keys a power LED, and solder pads for three flatcables, that are prepared so that they have wire ends with 2.54 pitch (every other wire with an 1.27mm pitch is not used) three flexcables are used with 5-wires 3-wires (for the LED) and 8-wires).
 revision 1.2 was made because there were some errors in the lettering below the keys, now the text "T Y U I O P" is corrected and the "10" was changed to "0", also the lettering was made a bit bolder. This change only pertains to the silk screen, nothing else has changed. so you can use the revision 1.1 BOM and KiCad files (you will need to edit the lettering though). If you already made a revision 1.1 PCB, no worries, the lettering is not needed when you use the keyboard overlay, and nothing else has changed. The copper text on the keyboard still reads 1.1. as copper was unchanged, only the silk screen was modified.
+
+# optional cassette replacement device
+
+I have also designed a very simple variant of the TZXDuino, an Arduino nano based playback device that can convert a .TZX file for a sinclair spectrum, or ZX-81 from a SD-Card to an audio signal that can be used to load a cassette file (game) into a sinclair computer, you can find it as the TZXDuino Pico project on the mahjongg2 github pages. I plan to use it to test the cassete interface of my ZX81+38 clone.
+

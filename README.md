@@ -77,7 +77,7 @@ On October 6, 2022 I uploaded a new BOM, some small errors were repaired, the 74
 
 You can watch a youtube explaining the build of the ZX81+38 here: https://www.youtube.com/watch?v=6a8wxj9vJjU
 it explains ordering the PCB's assembling the PCB's programming the ROM, and testing the computer.
-Note that for a cost analysis you often have to give the dimensions of the PCB, it is 142mm wide and 100mm high. for the keyboard PCB it is 158mm wide and 64mm high. But don't worry these dimensions are only used for a price assemment, the actual dimensions of the PCB's are derived from the gerber files. The main PCB is a two layer one, but the keyboard in priciple is only one layer, but if one layer PCB's are not supported choose two layers, the manufacturor will only actually create the top layer.
+Note that for a cost analysis you often have to give the dimensions of the PCB, for the ZX81+38 PCB it is 142mm wide and 100mm high. for the keyboard PCB it is 158mm wide and 64mm high. But don't worry these dimensions are only used for a price assemment, the actual dimensions of the PCB's are derived from the gerber files. The main PCB is a two layer one, but the keyboard in priciple is only one layer, but if one layer PCB's are not supported choose two layers, the manufacturor will actually only create the top layer.
 
 # KEYBOARD PCB
 

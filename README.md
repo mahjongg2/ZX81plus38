@@ -75,6 +75,8 @@ As it turned out that CO2 and CO3 had a misleading schematic symbol, that caused
 
 On October 6, 2022 I uploaded a new BOM, some small errors were repaired, the 74HC11 from mouser was listed as a 74LS11, and the SRAM from mouser was a "skinny dip" version instead of a regular 600mil DIP.  
 
+You can watch a youtube explaining the build of the ZX81+38 here: https://www.youtube.com/watch?v=6a8wxj9vJjU
+it explains ordering the PCB's assembling the PCB's programming the ROM, and testing the computer.
 
 # KEYBOARD PCB
 

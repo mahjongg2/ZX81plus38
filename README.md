@@ -90,7 +90,7 @@ revision 1.2 was made because there were some errors in the lettering below the 
 
 I have also designed a very simple variant of the TZXDuino, an Arduino nano based playback device that can convert a .TZX file for a sinclair spectrum, or ZX-81 from a SD-Card to an audio signal that can be used to load a cassette file (game) into a sinclair computer, you can find it as the TZXDuino Pico project on the mahjongg2 github pages. I plan to use it to test the cassete interface of my ZX81+38 clone. The PCB is very small only 37.1 mm wide, and 47.2 mm high and it is a 2 layer board.
 
-#getting an EPROM in 2022 
+# getting an EPROM in 2022 
 
 from various sources I heard that EPROM's (OTP's) are almost unobtainable. I have done a small research, and yes, it seems OTP ROM's are very hard to get. I found however one option that will work, you can buy an 28C64 for about ten euro. from Reichelt its an 8K x 8 reprogrammable (EEPROM), you can buy it from here: https://www.reichelt.nl/nl/nl/eeprom-64-kb-8-k-x-8-5-v-150-ns-pdip-28-28c64-150-p1946.html?&trstct=pol_2&nbc=1
 
@@ -98,7 +98,7 @@ yes, you need to change a wire bridge, as the 28C64 has a different pinout than 
 
 Here is a diagram showing the differences between a 27C256 and an 28C256
 
-[img]https://revspace.nl/images/thumb/6/68/Rom_pinouts_for_ZX81%2B38_resized.png/707px-Rom_pinouts_for_ZX81%2B38_resized.png[/img]
+https://revspace.nl/images/thumb/6/68/Rom_pinouts_for_ZX81%2B38_resized.png/707px-Rom_pinouts_for_ZX81%2B38_resized.png
 
 For a 28C64 the only real difference is that pin 27 must be tied high so that /WR is inactive, so switch jp10 to tie pin 27 high, not low.
 

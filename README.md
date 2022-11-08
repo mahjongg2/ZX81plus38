@@ -92,7 +92,7 @@ I have also designed a very simple variant of the TZXDuino, an Arduino nano base
 
 # getting an EPROM in 2022 
 
-from various sources I heard that EPROM's (OTP's) are almost unobtainable. I have done a bit of research, and yes, it seems OTP ROM's are very hard to get, due to the chip crysis. I found however one option that will work, you can buy an 28C64 for about ten euro. from Reichelt its an 8K x 8 reprogrammable (EEPROM), you can buy it from here: https://www.reichelt.nl/nl/nl/eeprom-64-kb-8-k-x-8-5-v-150-ns-pdip-28-28c64-150-p1946.html?&trstct=pol_2&nbc=1
+from various sources I heard that EPROM's (OTP's) are almost unobtainable. I have done a bit of research, and yes, it seems OTP ROM's are very hard to get, due to the chip crisis. I found however one option that will work, you can buy an 28C64 for about ten euro. from Reichelt its an 8K x 8 reprogrammable (EEPROM), you can buy it from here: https://www.reichelt.nl/nl/nl/eeprom-64-kb-8-k-x-8-5-v-150-ns-pdip-28-28c64-150-p1946.html?&trstct=pol_2&nbc=1
 
 And yes, you need to change a wire bridge, as the 28C64 has a different pinout than a 27C64 but that isn't a very big deal.
 
@@ -100,7 +100,7 @@ Hyou can find a diagram showing the differences between a 27C256 and an 28C256 h
 
 For a 28C64 the only real difference is that pin 27 must be tied high so that /WR is inactive, so switch jp10 to tie pin 27 high, not low.
 
-It is expected that 27C256's will become available beginning next year (2023).
+It is expected that 27C256's will become available beginning next year (2023). Note that due to the fact that an 28C64 is a small EEPROM, it only contains 8K, so don't buy it when you plan to later add the planned PSG expansion board, as this needs another 8K firmware (although a normal ZX-81 also doesn't have an option to simply add extra firmware, but there will be an extra 8K ROM space on the PSG board).
 
 
 Another solution is to buy a new old stock EPROM , the ones with a glass windows form a Chinese reseller these have the exact same pinout as modern OTP's as OTP's simply contain the same DIE (chip) as UV erasable EPROM's, so they have the exact same pinouts as OTP's.

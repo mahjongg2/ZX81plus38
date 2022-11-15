@@ -96,12 +96,13 @@ from various sources I heard that EPROM's (OTP's) are almost unobtainable. I hav
 
 And yes, you need to change a wire bridge, as the 28C64 has a different pinout than a 27C64 but that isn't a very big deal.
 
-Hyou can find a diagram showing the differences between a 27C256 and an 28C256 here: https://revspace.nl/images/thumb/6/68/Rom_pinouts_for_ZX81%2B38_resized.png/707px-Rom_pinouts_for_ZX81%2B38_resized.png
+You can find a diagram showing the differences between a 27C256 and an 28C256 here, also showing the pinout of the original ZX-81 ROM: https://revspace.nl/images/thumb/6/68/Rom_pinouts_for_ZX81%2B38_resized.png/707px-Rom_pinouts_for_ZX81%2B38_resized.png
 
 For a 28C64 the only real difference is that pin 27 must be tied high so that /WR is inactive, so switch jp10 to tie pin 27 high, not low.
 
 It is expected that 27C256's will become available beginning next year (2023). Note that due to the fact that an 28C64 is a small EEPROM, it only contains 8K, so don't buy it when you plan to later add the planned PSG expansion board, as this needs another 8K firmware (although a normal ZX-81 also doesn't have an option to simply add extra firmware, but there will be an extra 8K ROM space on the PSG board).
 
+Note that if you own a (broken) ZX-81 you can use its ROM but there are some more jumpers to change, note the ROM pinout diagram above.
 
 Another solution is to buy a new old stock EPROM , the ones with a glass windows form a Chinese reseller these have the exact same pinout as modern OTP's as OTP's simply contain the same DIE (chip) as UV erasable EPROM's, so they have the exact same pinouts as OTP's.
 

@@ -105,3 +105,7 @@ It is expected that 27C256's will become available beginning next year (2023). N
 
 Another solution is to buy a new old stock EPROM , the ones with a glass windows form a Chinese reseller these have the exact same pinout as modern OTP's as OTP's simply contain the same DIE (chip) as UV erasable EPROM's, so they have the exact same pinouts as OTP's.
 
+# getting the ZX-81 Manual
+
+There are several places where you can read the original ZX-81 manual online, one of those locations is here: http://otremolet.free.fr/otnet/otzx/zx81/basic-progr/
+

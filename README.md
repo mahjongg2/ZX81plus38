@@ -119,4 +119,4 @@ The ZX81+38 PCB is 142.2 wide and 99.1 mm high and dual sided, although the PCB 
 
 The keyboard PCB is single sided with copper and silkscreen on TOP! the PCB manufacturor will see that it is a single sided PCB as gerber files for the bottom side are not included, and there is text on the top side, but if there is an option to write a message it can't harm to mention these facts to the PCB manufacturor.
 
-If you also want to create my TZXDuino PCB, then note that it is a simple dual sided PCB that is 47.2mm high by 37.1mm wide
+If you also want to create my TZXDuino PCB, (a device that can read files from an SD-card and outputs cassette loading audio) then note that it is a simple dual sided PCB that is 47.2mm high by 37.1mm wide. Its in my TZXDuino-Pico repository. It is actually meant to be built into a ZX-Spectrum, but can work with ZX-81 .TZX files. Note that its a simplified form, original TZXDuino kits are also available from several vendors.

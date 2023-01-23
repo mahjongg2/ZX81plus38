@@ -133,9 +133,9 @@ there are 3D designs available to 3D print a zx-81 case, or you can use a real Z
 The canonical ZX81 hardware/software hobby designer Wilf Rigter designed a highresolution system for the ZX-81 in 1986 and wrote about it here: https://archive.org/details/zx-appeal/ZX-Appeal%20Jan%2086/page/12/mode/2up?view=theater (I looked in later issues but found no other information about WRX16).
 in this article he stated that for it to work a ZX-81 needed an extra 8K RAM at 8K to 16K, (the 8K following the ROM) and a Z80 that supported 8-bit refresh! Most Z80's at the time only supported 7-bit refresh counters (7-refresh address lines) but it seems you could buy Z80's that supported 8-bit refresh. I'm not sure whether modern (CMOS) Z80's also support 8-bit refresh.
 
-The ZX81+38 (when wired for 8K ROMS space) does have RAM at 8 to 16K, but in this case that RAM is a copy of RAM that is duplicated elesewhere, in any case it seems that currently revion 1.9 of my ZX81+38 does not supports wilf rigters WRX16 high resolution solution. And trying to use a game based on WRX16 currently crashes, there are a dozen or so programs that use WRX16.
+The ZX81+38 (when wired for 8K ROMS space) does have RAM at 8 to 16K, but in this case that RAM is a copy of RAM that is duplicated elesewhere, in any case it seems that currently revion 1.9 of my ZX81+38 does not supports wilf rigters WRX16 high resolution solution. And trying to use a game based on WRX16 currently crashes, there are a dozen or so programs including a few games that use WRX16. you can find a list here: http://www.pictureviewerpro.com/hosting/zx81/fredn.htm
 
-But please note that other (pseudo) high resolution games that work on an unmodified ZX-81 do work, examples are manic Miner for the ZX-81, and many others.
+But please note that most other (pseudo) high resolution games that work on an unmodified ZX-81 do work, examples are manic Miner for the ZX-81, and many others.
 
 The issue has my attention and is being investigated, I tried to contact wilf, but the e-mail adress I have is no longer in use.
 Any help in finding a solution for this issue is welcome...

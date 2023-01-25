@@ -137,5 +137,5 @@ The ZX81+38 (when wired for 8K ROMS space) does have RAM at 8 to 16K, but in thi
 
 But please note that most other (pseudo) high resolution games that work on an unmodified ZX-81 do work, examples are manic Miner for the ZX-81, and many others.
 
-The issue has my attention and is being investigated, I tried to contact wilf, but the e-mail adress I have is no longer in use.
+The issue has my attention and is being investigated, I tried to contact Wilf, but so far he has not reacted to my e-mail.
 Any help in finding a solution for this issue is welcome...

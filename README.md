@@ -114,9 +114,9 @@ There are several places where you can read the original ZX-81 manual online, on
 # ordering PCB's
 
 To order PCB's (from PCBWay for example) download the "production files" map of the PCB you want, the downloaded map will contain all the files you will need, that is both gerber and drill files, but most often the PCB manufacturer will want all these files in a single .ZIP file, so you have to zip up all the files in the map into a single.ZIP file first.
-Also most PCB manufacturors will want to now the dimensions of the PCB so they can make a price assesment these are the sizes you can quote:
+Also most PCB manufacturors will want to know the dimensions of the PCB so they can make a price assesment these are the sizes you can quote:
 
-The ZX81+38 PCB is 142.2 wide and 99.1 mm high and dual sided, although the PCB has an edge connector the original ZX-81 PCB's edge conector was neither bevelled nor gold plated, so I would ignore the edge connector, as creating one makes the PCB considerably more expensive.
+The ZX81+38 PCB is 142.2 wide and 99.1 mm high and dual sided, although the PCB has an edge connector the original ZX-81 PCB's edge connector was neither bevelled nor gold plated, so I would ignore gold plating the edge connector, as creating one makes the PCB considerably more expensive.
 
 The keyboard PCB is single sided with copper and silkscreen on TOP! the PCB manufacturor will see that it is a single sided PCB as gerber files for the bottom side are not included, and there is text on the top side, but if there is an option to write a message it can't harm to mention these facts to the PCB manufacturor.
 

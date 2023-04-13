@@ -107,6 +107,8 @@ Note that if you own a (broken) ZX-81 you can use its ROM but there are some mor
 
 Another solution is to buy a new old stock EPROM , the ones with a glass windows form a Chinese reseller these have the exact same pinout as modern OTP's as OTP's simply contain the same DIE (chip) as UV erasable EPROM's, so they have the exact same pinouts as OTP's.
 
+As of April 2023 it seems that 27C256 EPROM's are again in stock!
+
 # getting the ZX-81 Manual
 
 There are several places where you can read the original ZX-81 manual online, one of those locations is here: http://otremolet.free.fr/otnet/otzx/zx81/basic-progr/
@@ -139,4 +141,7 @@ But please note that most other (pseudo) high resolution games that work on an u
 
 My current conclusion is that an unmodified WRX16 won't work as is, but note that with a small re-write of the WRX16 code, so that it uses the extra 16K RAM instead of an 8K RAM board, it should work.
 (see the issues section) I tried to contact Wilf, but so far he has not reacted to my e-mail.
+
+# The crystal for revision 1.9 ZX81+38 computers.
+If you have a ZX81+38 revision 1.9 PCB you will notice that it uses a SMT version of the 13MHz crystal. If you cannot find a SMT version (recognizable by the plastic carrier underneath it and flat pins bent sideways) then it is possible to use a pin through hole crystal, simply use a piece of paper and stick it over the wires, punching the wires throug the paper, then bending the wires outward, and cutting the wires off a few mm beyond the metal of the crystal. The paper isolates the pins from the metal base of the crystal. then solder the wires to the metal pads. 
 

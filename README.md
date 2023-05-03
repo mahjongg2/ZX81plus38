@@ -145,3 +145,8 @@ My current conclusion is that an unmodified WRX16 won't work as is, but note tha
 # The crystal for revision 1.9 ZX81+38 computers.
 If you have a ZX81+38 revision 1.9 PCB you will notice that it uses a SMT version of the 13MHz crystal. If you cannot find a SMT version (recognizable by the plastic carrier underneath it and flat pins bent sideways) then it is possible to use a pin through hole crystal, simply use a piece of paper and stick it over the wires, punching the wires throug the paper, then bending the wires outward, and cutting the wires off a few mm beyond the metal of the crystal. The paper isolates the pins from the metal base of the crystal. then solder the wires to the metal pads. 
 
+# a few small corrections
+I uploaded new versions of the component overview drawing and the ZX81+38 BOM.
+The drawing has the position of the crystal, and the 15pF capacitors corrected, and the Value of RP1 corrected from 1K to 10K (1K probably works, but both the schematic the BOM uses 10K, as does the original ZX-81.
+The BOM only has the correction that the 3.5mm jacks are not CLIFF FT6320 (that is the wrong model), but the cheaper FC68131.
+By the way the BOM is in the open source open office .ODS format, which can be opened with the free open office software, or an online tool.and probably also with Microsofts spreadsheet tool if you choose to open a .ODS file with it. I prefer open source formats..

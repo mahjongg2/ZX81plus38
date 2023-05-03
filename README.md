@@ -87,11 +87,11 @@ and a Bill of material for the keyboard with 40 keys a power LED, and solder pad
 revision 1.2 was made because there were some errors in the lettering below the keys, now the text "T Y U I O P" is corrected and the "10" was changed to "0", also the lettering was made a bit bolder. This change only pertains to the silk screen, nothing else has changed. so you can use the revision 1.1 BOM and KiCad files (you will need to edit the lettering though). If you already made a revision 1.1 PCB, no worries, the lettering is not needed when you use the keyboard overlay, and nothing else has changed. The copper text on the keyboard still reads 1.1. as copper was unchanged, only the silk screen was modified. Nothat when ordering the PCB you often have to give PCB dimensions for cost assesment, for the keyboard the dimensions (as said above) are 158mm wide and 64mm high.
 I also added the keyboard overlay, which previously was only to be found on my ZX81+35 pages, you can print this out (preferably in color)plastify it wit self sticking transparant plastic, it should fit exactly over my keyboard. You can then punch 40 4mm holes in it for long button stems, or use low profile, low travel keys and simply glue the overlay over the buttons and press on the buttons through the plastified paper.
 
-# optional cassette replacement device
+# Optional cassette replacement device
 
 I have also designed a very simple variant of the TZXDuino, an Arduino nano based playback device that can convert a .TZX file for a sinclair spectrum, or ZX-81 from a SD-Card to an audio signal that can be used to load a cassette file (game) into a sinclair computer, you can find it as the TZXDuino Pico project on the mahjongg2 github pages. I plan to use it to test the cassete interface of my ZX81+38 clone. The PCB is very small only 37.1 mm wide, and 47.2 mm high and it is a 2 layer board.
 
-# getting an EPROM in 2022 
+# Getting an EPROM in 2022 
 
 from various sources I heard that EPROM's (OTP's) are almost unobtainable. I have done a bit of research, and yes, it seems OTP ROM's are very hard to get, due to the chip crisis. I found however one option that will work, you can buy an 28C64 for about ten euro. from Reichelt its an 8K x 8 reprogrammable (EEPROM), you can buy it from here: https://www.reichelt.nl/nl/nl/eeprom-64-kb-8-k-x-8-5-v-150-ns-pdip-28-28c64-150-p1946.html?&trstct=pol_2&nbc=1
 
@@ -109,7 +109,7 @@ Another solution is to buy a new old stock EPROM , the ones with a glass windows
 
 As of April 2023 it seems that 27C256 EPROM's are again in stock!
 
-# getting the ZX-81 Manual
+# Getting the ZX-81 Manual
 
 There are several places where you can read the original ZX-81 manual online, one of those locations is here: http://otremolet.free.fr/otnet/otzx/zx81/basic-progr/
 
@@ -145,7 +145,7 @@ My current conclusion is that an unmodified WRX16 won't work as is, but note tha
 # The crystal for revision 1.9 ZX81+38 computers.
 If you have a ZX81+38 revision 1.9 PCB you will notice that it uses a SMT version of the 13MHz crystal. If you cannot find a SMT version (recognizable by the plastic carrier underneath it and flat pins bent sideways) then it is possible to use a pin through hole crystal, simply use a piece of paper and stick it over the wires, punching the wires throug the paper, then bending the wires outward, and cutting the wires off a few mm beyond the metal of the crystal. The paper isolates the pins from the metal base of the crystal. then solder the wires to the metal pads. 
 
-# a few small corrections
+# A few small corrections
 I uploaded new versions of the component overview drawing and the ZX81+38 BOM.
 The drawing has the position of the crystal, and the 15pF capacitors corrected, and the Value of RP1 corrected from 1K to 10K. 1K probably works, (with revision 1.9 PCB's that use A8 not A8' but both the schematic the BOM uses 10K, as does the original ZX-81.
 The BOM only has the correction that the 3.5mm jacks are not CLIFF FT6320 (that is the wrong model), but the cheaper FC68131, that doesn't have swithces and the correct pin arrangement.

@@ -155,3 +155,8 @@ By the way the BOM is in the open source open office .ODS format, which can be o
 I wrote a document explaining the build process of the ZX81+38. For inexperienced hobbyist note that building the ZX81+38 is NOT a simple affair, you need to have experience in soldering. Also I explain the process of finding the fault if your ZX81+38 doesn't work at first try. Please read the "building and testing the ZX81+38" document. 
 If you have any questions or remarks, you can reach me at mahjongg@xs4all.nl 
 Also I might, for a fee, program (and test) a 27C256 EPROM for you, if you do not own an EPROM programmer. Please contact me at my e-mail address.
+
+# jumpers for the ZX81+38
+ I wrote a small document about the use of jumpers on the zx81+38, what they do, where they are on the board etc.
+ But note that normally you don't have to change a single jumper, they are all pre-set with a small wirelink, you must cut to change the setting.
+ This document is just for the more curious people, or for those who do not want to use a 27C256, perhaps because they want to use the original zx-81 ROM

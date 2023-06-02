@@ -151,7 +151,7 @@ The drawing has the position of the crystal, and the 15pF capacitors corrected, 
 The BOM only has the correction that the 3.5mm jacks are not CLIFF FT6320 (that is the wrong model), but the cheaper FC68131, that doesn't have switches and has the correct pin arrangement.
 By the way the BOM is in the open source open office .ODS format, which can be opened with the free open office software, or an online tool.and probably also with Microsofts spreadsheet tool if you choose to open a .ODS file with it. I prefer open source formats..
 
-# Building and Testing the ZX81+38
+# Documentation for Building and Testing the ZX81+38
 I wrote a document explaining the build process of the ZX81+38. For inexperienced hobbyist note that building the ZX81+38 is NOT a simple affair, you need to have experience in soldering. Also I explain the process of finding the fault if your ZX81+38 doesn't work at first try. Please read the "building and testing the ZX81+38" document. 
 If you have any questions or remarks, you can reach me at mahjongg@xs4all.nl 
 Also I might, for a fee, program (and test) a 27C256 EPROM for you, if you do not own an EPROM programmer. Please contact me at my e-mail address.
@@ -166,7 +166,7 @@ I'm writing this as this information is hard to find elsewhere.
 
 The ZX81 memory map is divided into four 16K parts.
 
-The first (lower) 16K part, contains the ROM (as it’s only 8K, you would normally get a echo of the first 8K in the second 8K, but the 27C256 contains 32K, so you can put something else there). this ROM-space is normally set to 16K default, and you can use the second 8K for ROM expansions, such as the SD-Card reader firmware on the (PSG) sound + SD-card expansion board that I'm planning to design.
+The first (lower) 16K part, contains the ROM (as it’s only 8K, you would normally get a echo of the first 8K in the second 8K, but the 27C256 contains 32K, so you can put something else there). this ROM-space is normally set to 16K default, so you can use the second 8K for ROM expansions, such as the SD-Card reader firmware on the (PSG) sound + SD-card expansion board that I'm planning to design. but you can force the ROM-space with a jumper to be only 8K, and then the second 8K becomes RAM.
 
 The second 16K part, is the normal RAM area.
 

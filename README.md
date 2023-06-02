@@ -160,3 +160,16 @@ Also I might, for a fee, program (and test) a 27C256 EPROM for you, if you do no
  I wrote a small document about the use of jumpers on the zx81+38, what they do, where they are on the board etc.
  But note that normally you don't have to change a single jumper, they are all pre-set with a small wirelink, you must cut to change the setting.
  This document is just for the more curious people, or for those who do not want to use a 27C256, perhaps because they want to use the original zx-81 ROM
+ 
+ # The memory map of a ZX-80 or ZX-81
+I'm writing this as this information is hard to find elsewhere. 
+
+The ZX81 memory map is divided into four 16K parts.
+
+The first (lower) 16K part, contains the ROM (as it’s only 8K, you would normally get a echo of the first 8K in the second 8K, but the 27C256 contains 32K, so you can put something else there). this ROM-space is normally set to 16K default, and you can use the second 8K for ROM expansions, such as the SD-Card reader firmware on the (PSG) sound + SD-card expansion board that I'm planning to design.
+
+The second 16K part, is the normal RAM area.
+
+The third 16K of a real ZX-81 will have copies of the ROM, but the ZX-81+38 will have copies of the RAM, as ROM space is limited to the first 16K.
+
+The fourth and last 16K, is more echoes of the RAM. However, it’s important to note that the hardware detects this, and uses it for the video generation logic.

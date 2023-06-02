@@ -168,8 +168,8 @@ The ZX81 memory map is divided into four 16K parts.
 
 The first (lower) 16K part, contains the ROM (as it’s only 8K, you would normally get a echo of the first 8K in the second 8K, but the 27C256 contains 32K, so you can put something else there). this ROM-space is normally set to 16K default, so you can use the second 8K for ROM expansions, such as the SD-Card reader firmware on the (PSG) sound + SD-card expansion board that I'm planning to design. but you can force the ROM-space with a jumper to be only 8K, and then the second 8K becomes RAM.
 
-The second 16K part, is the normal RAM area.
+The second 16K part, is the normal RAM area. On a normal ZX-81 with 1K RAM this space contains 16 copies of the 1K RAM space.The firmware detects these are copies.
 
-The third 16K of a real ZX-81 will have copies of the ROM, but the ZX-81+38 will have copies of the RAM, as ROM space is limited to the first 16K.
+The third 16K of a real ZX-81 will have more copies of the ROM, but the ZX-81+38 will not, but have copies of the RAM instead, as ROM space is limited to the first 16K.
 
 The fourth and last 16K, is more echoes of the RAM. However, it’s important to note that the hardware detects this, and uses it for the video generation logic.

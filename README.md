@@ -175,5 +175,5 @@ The third 16K of a real ZX-81 will have more copies of the ROM, but the ZX-81+38
 The fourth and last 16K, is more echoes of the RAM. However, it’s important to note that the hardware detects this, and uses it for the video generation logic.
 
 # Revision 1.10
-Revision 1.10 is electrically the same as revision 1.9, the only chnages are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. 
+Revision 1.10 is electrically the same as revision 1.9, the only changes are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. 
 The BOM of revision 1.10 has a small corretion farnells order code for RP1 is now for a 10K reistor pack instead of the wrong 4K7 resistor pack.

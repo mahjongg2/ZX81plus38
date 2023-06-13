@@ -159,7 +159,7 @@ Also I might, for a fee, program (and test) a 27C256 EPROM for you, if you do no
 # jumpers for the ZX81+38
  I wrote a small document about the use of jumpers on the zx81+38, what they do, where they are on the board etc.
  But note that normally you don't have to change a single jumper, they are all pre-set with a small wirelink, you must cut to change the setting.
- This document is just for the more curious people, or for those who do not want to use a 27C256, perhaps because they want to use the original zx-81 ROM
+ This document is just for the more curious people, or for those who do not want to use a 27C256, perhaps because they want to use the original zx-81 ROM, or they want to invert the video signal from a white background to a black background.
  
  # The memory map of a ZX-80 or ZX-81
 I'm writing this as this information is hard to find elsewhere. 
@@ -173,3 +173,6 @@ The second 16K part, is the normal RAM area. On a normal ZX-81 with 1K RAM this 
 The third 16K of a real ZX-81 will have more copies of the ROM, but the ZX-81+38 will not, but have copies of the RAM instead, as ROM space is limited to the first 16K.
 
 The fourth and last 16K, is more echoes of the RAM. However, it’s important to note that the hardware detects this, and uses it for the video generation logic.
+
+# Revision 1.10
+Revision 1.10 is electrically the same as revision 1.9, the only chnages are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. 

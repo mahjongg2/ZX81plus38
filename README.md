@@ -176,3 +176,4 @@ The fourth and last 16K, is more echoes of the RAM. However, it’s important to
 
 # Revision 1.10
 Revision 1.10 is electrically the same as revision 1.9, the only chnages are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. 
+The BOM of revision 1.10 has a small corretion farnells order code for RP1 is now for a 10K reistor pack instead of the wrong 4K7 resistor pack.

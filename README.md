@@ -177,3 +177,6 @@ The fourth and last 16K, is more echoes of the RAM. However, it’s important to
 # Revision 1.10
 Revision 1.10 is electrically the same as revision 1.9, the only changes are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. 
 The BOM of revision 1.10 has a small corretion farnells order code for RP1 is now for a 10K reistor pack instead of the wrong 4K7 resistor pack.
+
+# someone requested a TS1000 version
+The only difference with the ZX-81 hardware wise that for PCB needs to be fixed is that the RF modulator of the TS1000 is different, and has the RCA output on the other end of the modulator, so the enclosure of the TS1000 has the hole for the modulatornear the back of the enclosure instead of next to the other connectors. Other changes were that the TS1000 had 2K or RAM, and a 60Hz refresh rate, but because the ZX81+38 already has 16K (32K if enabled) and has a jumper for 50 or 60Hz refres, no other hardware changes are needed.I had a look at the layout, and it seems possible to move the crystal and the 74HC04 down to make place for the RCA connector. This version will get its own project, named TS1000plus41.

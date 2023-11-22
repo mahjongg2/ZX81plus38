@@ -175,7 +175,7 @@ The third 16K of a real ZX-81 will have more copies of the ROM, but the ZX-81+38
 The fourth and last 16K, is more echoes of the RAM. However, it’s important to note that the hardware detects this, and uses it for the video generation logic.
 
 # Revision 1.10
-Revision 1.10 is electrically the same as revision 1.9, the only changes are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. I have uploaded the KikCad files for version 1.10 of ZX81+38.
+Revision 1.10 is electrically the same as revision 1.9, the only changes are that the exact location of a few non plated holes were moved to a more correct location, so that the PCB will now completely fit into the enclosure of a real ZX-81. Revision 1.10 should be the final version. I have uploaded the KiCad files for version 1.10 of ZX81+38. I also updated the component placement drawing with R29 as 1M and C1 and C2 as 4.7pF (like the BOM)
 The BOM of revision 1.10 has a small correction farnells order code for RP1 is now for a 10K resistor pack instead of the wrong 4K7 resistor pack.
 
 # someone requested a TS1000 version

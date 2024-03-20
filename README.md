@@ -186,3 +186,8 @@ I was told that a Facebook poster in the ZX-81 owners group claimed he found an 
 
 # Second extended BOM (bill of materials) to find hard to get parts.
 This BOM has multiple suppliers, so improve the chance of finding a part you need. Created because a builder complained he could not find a part anywhere, so I added two more suppliers next to farnell, namely mouser and reichelt. It can also be used to compare the same part from to suppliers, so you can order his part from any other supplier. The new BOM is called "EXTENDED ZX81plus38_BOM_with multiple suppliers revision 1.10.ods" it can be opened with the free and open source spreadsheet open office, or any other spreadsheet that can handle .ods spreadsheet. Another reason to compare suppliers is to find the best prize. If you are American, you might want to buy from Digikey, there is another BOM created by a builder (so not by me) with digikey parts in the "issues" section, issue #18.
+
+# I joined facebook
+
+I joined facebook as Martin de Jong, so I can answer questions about my ZX-81 clones in among other groups the "ZX-81 Owners Club". see uou there!
+

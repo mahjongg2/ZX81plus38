@@ -189,5 +189,5 @@ This BOM has multiple suppliers, so improve the chance of finding a part you nee
 
 # I joined facebook
 
-I joined facebook as Martin de Jong, so I can answer questions about my ZX-81 clones in among other groups the "ZX-81 Owners Club". see uou there!
+I joined facebook as Martin de Jong, so I can answer questions about my ZX-81 clones in among other groups the "ZX-81 Owners Club". see uou there! I'm also on various ZX-81 fora, like forum.tlienhard.com as mahjongg.
 
